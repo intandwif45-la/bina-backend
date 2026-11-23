@@ -1,0 +1,15 @@
+{
+  "name": "bina-backend",
+  "version": "1.0.0",
+  "description": "Backend rebuild BINA — satu aplikasi belajar merakit PC (siswa/guru/admin). Dibangun ulang dari kontrak kode aplikasi Flutter.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.10.0",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
